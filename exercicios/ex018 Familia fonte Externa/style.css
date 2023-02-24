@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Delicado';
+    src: url(fontes/NT\ VALENTINO\ \(Personal\ use\).otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+    /* tipos de formato
+     opentype (otf)
+     truetype (ttf)
+     embedded-opentype
+     truetype-aat (Apple Advanced Typography)
+     svg
+     */
+
+body {
+    font-family: 'Delicado', Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    font-family:'Delicado', Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+}

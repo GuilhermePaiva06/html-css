@@ -1,0 +1,118 @@
+@charset "UTF-8";   
+
+@font-face {
+    font-family: Android;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+   background-color: rgb(243, 223, 110);
+   font-family: sans-serif;
+   margin: 0px;
+   text-align: auto;
+}
+
+header {
+    background-color: #095C00;
+    padding: 1px;   
+    background-image: linear-gradient(to top, #095C00, #109C00 );
+    font-family: 'Oswald', Helvetica, sans-serif;
+    color: white;
+    height: 200px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.356);
+}
+
+#navh1 {
+    color: rgba(255, 255, 255, 0.459);
+    padding-top: 45px;
+    margin-left: 10px;
+}
+
+#navh1 > a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.788);
+    font-weight: lighter;
+    margin-right: 20px;
+}
+
+#navh1 > a:hover {
+    background-color: #557e50;
+}
+
+#navh1 > a:visited {
+    color: rgba(255, 255, 255, 0.459);
+    margin: 20px;
+}
+
+main {
+    background-color: white;
+    height: 2000px;
+    margin: 1px 100px;
+    font-family: sans-serif;
+    font-weight: normal;
+    box-shadow: 2px 4px 11px 0px rgba(0, 0, 0, 0.329);
+}
+
+main > h2 {
+    color: #109C00;
+    padding: 10px 20px;
+    background-color: white;
+    height: 35px;
+    margin: 1px 1px;
+    font-family: 'Android', Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+main > h3 {
+    color: #0e5805;
+    font-family: 'Android', Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 1px 20px;
+    background-image: linear-gradient(to right, #6dca61, #ffffff);
+}
+
+main > p {
+    text-align: justify;
+    margin: 1px;
+    padding: 10px 20px;
+    border: 1px 1px;
+    font-size: 14px;
+    text-indent: 20px;
+}
+
+#ph3 > a {
+    text-decoration: none;
+    background-color: #6dca61;
+    font-weight: bolder;
+}
+
+#ph3 > a:visited {
+    color: #fff;
+}
+
+#ph3 > a:hover {
+    text-decoration: underline;
+}
+
+.l1::after {
+    content: '🔗';
+}
+
+picture > p {
+    text-align: justify;
+    margin: 1px;
+    padding: 10px 20px;
+    border: 1px 1px;
+    font-size: 14px;
+    text-indent: 20px;
+}
+
+img {
+    margin: 1px 40px;
+}
+
+#img3 {
+    margin: 1px 250px;
+}
